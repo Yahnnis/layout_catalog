@@ -77,4 +77,16 @@
     border: 1px solid $buy-buttom-text-hover;
     cursor: pointer;
   }
+
+  &:hover {
+    transition-duration: 300ms;
+    transform: scale(1.2);
+    .card__product {
+      color: #34568b;
+    }
+    .card__buy {
+      background-color: #fff;
+      color: #00acdc;
+    }
+  }
 }
