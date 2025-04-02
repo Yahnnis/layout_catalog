@@ -1,5 +1,6 @@
 .stars {
   display: flex;
+  gap: 4px;
 
   &__star {
     background-image: url(../images/star.svg);
@@ -8,7 +9,6 @@
     background-position: center;
     height: 16px;
     width: 16px;
-    margin-bottom: 24px;
   }
 
   &--4 > &__star:nth-child(-n + 4) {
